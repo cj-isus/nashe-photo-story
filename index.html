@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f4eee4">
+  <meta name="description" content="Маленький мир для двоих. Наши фотографии, истории и немного волшебства.">
+  <title>наше. — маленький мир для двоих</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./app.js" type="module"></script>
+</head>
+<body>
+  <a class="skip-link" href="#moments">К фотографиям</a>
+  <svg class="svg-defs" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><defs>
+    <symbol id="arrow" viewBox="0 0 24 24"><path d="M4 12h15m-6-6 6 6-6 6"/></symbol>
+    <symbol id="shuffle" viewBox="0 0 24 24"><path d="m17 3 4 4-4 4M3 17h3c5 0 6-10 11-10h4M17 13l4 4-4 4M3 7h3c2 0 3 2 4 4m4 4c1 1 2 2 3 2h4"/></symbol>
+    <symbol id="heart" viewBox="0 0 24 24"><path d="M20.5 4.8c-2.6-2.5-6.7-1.5-8.5 1.3C10.2 3.3 6 2.3 3.5 4.8-1 9.2 6.6 16.6 12 21c5.4-4.4 13-11.8 8.5-16.2Z"/></symbol>
+    <symbol id="close" viewBox="0 0 24 24"><path d="m6 6 12 12M6 18 18 6"/></symbol>
+    <symbol id="download" viewBox="0 0 24 24"><path d="M12 3v12m-5-5 5 5 5-5M4 16v5h16v-5"/></symbol>
+  </defs></svg>
+  <header class="site-nav">
+    <a class="wordmark" href="#top" aria-label="наше. — в начало">наше<span>.</span></a>
+    <nav class="nav-links" aria-label="Разделы альбома"><a href="#moments">Моменты</a><a href="#little-things">Между делом</a></nav>
+    <button class="random-button" id="random-moment" type="button"><svg class="icon" aria-hidden="true"><use href="#shuffle"/></svg><span>Случайный кадр</span></button>
+  </header>
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="tiny-spark" aria-hidden="true">✳</span> собрано вдвоём</p>
+        <h1 id="hero-title">Ты, я<br><em>и всё</em><br>между<span class="title-dot">.</span></h1>
+        <p class="hero-line">Самое любимое — просто быть рядом.</p>
+        <a class="primary-link" href="#moments">Листать наши истории<svg class="icon" aria-hidden="true"><use href="#arrow"/></svg></a>
+      </div>
+      <div class="hero-scene" aria-label="Несколько наших моментов">
+        <span class="hero-orbit" aria-hidden="true"></span>
+        <button class="hero-print hero-print--back" data-open-photo="photo-07" data-open-version="original" aria-label="Открыть нашу прогулку среди цветов" type="button"><span class="tape tape--one" aria-hidden="true"></span><img id="hero-small" width="320" height="427" alt="Мы среди осенних цветов"><span class="print-note">та самая осень</span></button>
+        <button class="hero-print hero-print--main" data-open-photo="photo-20" data-open-version="original" aria-label="Открыть наш вечер в городе" type="button"><span class="tape tape--two" aria-hidden="true"></span><img id="hero-main" width="360" height="480" alt="Мы вдвоём на вечерней улице" fetchpriority="high"><span class="print-note">здесь хорошо. с тобой.</span></button>
+        <button class="hero-print hero-print--small" data-open-photo="photo-05" data-open-version="b" aria-label="Открыть наш фетровый выпускной" type="button"><img id="hero-side" width="260" height="195" alt="Наш выпускной в мире фетра"><span class="print-note">мы в другой вселенной</span></button>
+        <div class="hero-doodle" aria-hidden="true"><svg viewBox="0 0 110 110"><path d="M54 86C-7 46 23 8 54 39 83 4 123 44 54 86Z"/><path d="m83 10 5-8m10 20 10-2M17 80l-10 5"/></svg></div>
+      </div>
+    </section>
+    <div class="page-seam" aria-hidden="true"><span>маленький мир для двоих</span><svg viewBox="0 0 38 26"><path d="M19 22C-1 9 7-2 19 7 30-2 40 9 19 22Z"/></svg><span>продолжение следует</span></div>
+    <section id="moments" class="moments-section" aria-labelledby="moments-title">
+      <div class="section-heading"><h2 id="moments-title">Наши маленькие<br><em>истории.</em></h2><div class="section-aside"><span><span id="photo-total">23</span> кадра · <span id="group-total">8</span> историй</span><button id="view-all" class="text-button" type="button">Все кадры<svg class="icon" aria-hidden="true"><use href="#arrow"/></svg></button></div></div>
+      <nav id="chapter-filter" class="chapter-filters" aria-label="Выбрать историю"></nav>
+      <div id="site-status" class="site-status" role="status" aria-live="polite"></div><button id="retry-load" type="button" hidden>Попробовать ещё раз</button>
+      <div id="chapter-grid" class="chapter-grid" aria-live="polite"></div>
+    </section>
+    <section class="little-section" id="little-things" aria-labelledby="little-title"><div class="little-heading"><span class="scribble-star" aria-hidden="true">✳</span><h2 id="little-title">А ещё —<br><em>просто между делом.</em></h2><p>Без повода. Зато вместе.</p></div><div id="little-strip" class="little-strip" aria-label="Маленькие моменты"></div></section>
+    <section class="closing-note"><svg class="closing-heart" aria-hidden="true"><use href="#heart"/></svg><p>Как хорошо,<br>что есть <em>мы.</em></p><a href="#top" aria-label="Вернуться в начало">Ещё раз с начала ↑</a></section>
+  </main>
+  <footer class="site-footer"><a href="#top" class="wordmark">наше<span>.</span></a><span>сохраним это.</span><span class="footer-count"><span id="version-total">48</span> других вселенных</span></footer>
+  <dialog id="photo-viewer" class="photo-viewer" closedby="any" aria-labelledby="viewer-title">
+    <div class="viewer-shell">
+      <header class="viewer-header"><div><h2 id="viewer-title"></h2><span id="viewer-count" class="viewer-count"></span></div><div class="viewer-tools"><button id="viewer-favorite" class="icon-button" type="button" aria-label="Сохранить в любимое" aria-pressed="false"><svg class="icon" aria-hidden="true"><use href="#heart"/></svg></button><a id="viewer-download" class="icon-button" download aria-label="Скачать изображение"><svg class="icon" aria-hidden="true"><use href="#download"/></svg></a><button id="viewer-close" class="icon-button" type="button" aria-label="Закрыть просмотр"><svg class="icon" aria-hidden="true"><use href="#close"/></svg></button></div></header>
+      <div class="viewer-media"><button id="viewer-prev" type="button" class="viewer-step viewer-step--prev" aria-label="Предыдущий кадр"><svg class="icon" aria-hidden="true"><use href="#arrow"/></svg></button><img id="viewer-image" alt="" decoding="async"><button id="viewer-next" type="button" class="viewer-step viewer-step--next" aria-label="Следующий кадр"><svg class="icon" aria-hidden="true"><use href="#arrow"/></svg></button><p id="viewer-status" class="viewer-status" role="status" aria-live="polite"></p></div>
+      <nav id="viewer-variants" class="variant-controls" aria-label="Версии фотографии"></nav>
+      <div id="viewer-thumbs" class="viewer-thumbs" aria-label="Кадры этой истории"></div>
+    </div>
+  </dialog>
+</body>
+</html>

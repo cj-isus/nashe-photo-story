@@ -1,0 +1,797 @@
+{
+  "schemaVersion": 1,
+  "groups": [
+    {
+      "id": "tribunes",
+      "title": "Трибуны",
+      "coverId": "photo-03",
+      "photoIds": [
+        "photo-01",
+        "photo-02",
+        "photo-03"
+      ]
+    },
+    {
+      "id": "home",
+      "title": "Дома",
+      "coverId": "photo-04",
+      "photoIds": [
+        "photo-04"
+      ]
+    },
+    {
+      "id": "graduation",
+      "title": "Выпускной",
+      "coverId": "photo-05",
+      "photoIds": [
+        "photo-05"
+      ]
+    },
+    {
+      "id": "flowers",
+      "title": "Среди цветов",
+      "coverId": "photo-07",
+      "photoIds": [
+        "photo-06",
+        "photo-07",
+        "photo-08",
+        "photo-09"
+      ]
+    },
+    {
+      "id": "on-the-way",
+      "title": "По пути",
+      "coverId": "photo-10",
+      "photoIds": [
+        "photo-10",
+        "photo-11"
+      ]
+    },
+    {
+      "id": "autumn",
+      "title": "Осень рядом",
+      "coverId": "photo-18",
+      "photoIds": [
+        "photo-12",
+        "photo-14",
+        "photo-15",
+        "photo-16",
+        "photo-17",
+        "photo-18"
+      ]
+    },
+    {
+      "id": "pizza",
+      "title": "Ночная пицца",
+      "coverId": "photo-13",
+      "photoIds": [
+        "photo-13"
+      ]
+    },
+    {
+      "id": "city-lights",
+      "title": "Огни города",
+      "coverId": "photo-20",
+      "photoIds": [
+        "photo-19",
+        "photo-20",
+        "photo-21",
+        "photo-22",
+        "photo-23"
+      ]
+    }
+  ],
+  "photos": [
+    {
+      "id": "photo-01",
+      "groupId": "tribunes",
+      "width": 697,
+      "height": 1046,
+      "original": {
+        "src": "assets/photo-01-original.webp",
+        "width": 697,
+        "height": 1046
+      },
+      "variants": [
+        {
+          "id": "a",
+          "label": "Кино",
+          "src": "assets/photo-01-a.webp",
+          "width": 800,
+          "height": 1200,
+          "full": "assets/photo-01-a-full.webp"
+        },
+        {
+          "id": "b",
+          "label": "Фантазия",
+          "src": "assets/photo-01-b.webp",
+          "width": 800,
+          "height": 1200,
+          "full": "assets/photo-01-b-full.webp"
+        }
+      ]
+    },
+    {
+      "id": "photo-02",
+      "groupId": "tribunes",
+      "width": 853,
+      "height": 1280,
+      "original": {
+        "src": "assets/photo-02-original.webp",
+        "width": 800,
+        "height": 1200,
+        "full": "assets/photo-02-original-full.webp"
+      },
+      "variants": [
+        {
+          "id": "a",
+          "label": "Кино",
+          "src": "assets/photo-02-a.webp",
+          "width": 800,
+          "height": 1200,
+          "full": "assets/photo-02-a-full.webp"
+        },
+        {
+          "id": "b",
+          "label": "Фантазия",
+          "src": "assets/photo-02-b.webp",
+          "width": 800,
+          "height": 1200,
+          "full": "assets/photo-02-b-full.webp"
+        }
+      ]
+    },
+    {
+      "id": "photo-03",
+      "groupId": "tribunes",
+      "width": 853,
+      "height": 1280,
+      "original": {
+        "src": "assets/photo-03-original.webp",
+        "width": 800,
+        "height": 1200,
+        "full": "assets/photo-03-original-full.webp"
+      },
+      "variants": [
+        {
+          "id": "a",
+          "label": "Кино",
+          "src": "assets/photo-03-a.webp",
+          "width": 800,
+          "height": 1200,
+          "full": "assets/photo-03-a-full.webp"
+        },
+        {
+          "id": "b",
+          "label": "Фантазия",
+          "src": "assets/photo-03-b.webp",
+          "width": 800,
+          "height": 1200,
+          "full": "assets/photo-03-b-full.webp"
+        }
+      ]
+    },
+    {
+      "id": "photo-04",
+      "groupId": "home",
+      "width": 1920,
+      "height": 2560,
+      "original": {
+        "src": "assets/photo-04-original.webp",
+        "width": 900,
+        "height": 1200,
+        "full": "assets/photo-04-original-full.webp"
+      },
+      "variants": [
+        {
+          "id": "a",
+          "label": "Кино",
+          "src": "assets/photo-04-a.webp",
+          "width": 900,
+          "height": 1200,
+          "full": "assets/photo-04-a-full.webp"
+        },
+        {
+          "id": "b",
+          "label": "Фантазия",
+          "src": "assets/photo-04-b.webp",
+          "width": 900,
+          "height": 1200,
+          "full": "assets/photo-04-b-full.webp"
+        }
+      ]
+    },
+    {
+      "id": "photo-05",
+      "groupId": "graduation",
+      "width": 1280,
+      "height": 960,
+      "original": {
+        "src": "assets/photo-05-original.webp",
+        "width": 1200,
+        "height": 900,
+        "full": "assets/photo-05-original-full.webp"
+      },
+      "variants": [
+        {
+          "id": "a",
+          "label": "Кино",
+          "src": "assets/photo-05-a.webp",
+          "width": 1200,
+          "height": 900,
+          "full": "assets/photo-05-a-full.webp"
+        },
+        {
+          "id": "b",
+          "label": "Фантазия",
+          "src": "assets/photo-05-b.webp",
+          "width": 1200,
+          "height": 900,
+          "full": "assets/photo-05-b-full.webp"
+        },
+        {
+          "id": "extra1",
+          "label": "Ещё версия",
+          "src": "assets/photo-05-extra1.webp",
+          "width": 1200,
+          "height": 900,
+          "full": "assets/photo-05-extra1-full.webp"
+        }
+      ]
+    },
+    {
+      "id": "photo-06",
+      "groupId": "flowers",
+      "width": 960,
+      "height": 1280,
+      "original": {
+        "src": "assets/photo-06-original.webp",
+        "width": 900,
+        "height": 1200,
+        "full": "assets/photo-06-original-full.webp"
+      },
+      "variants": [
+        {
+          "id": "a",
+          "label": "Кино",
+          "src": "assets/photo-06-a.webp",
+          "width": 900,
+          "height": 1200,
+          "full": "assets/photo-06-a-full.webp"
+        },
+        {
+          "id": "b",
+          "label": "Фантазия",
+          "src": "assets/photo-06-b.webp",
+          "width": 900,
+          "height": 1200,
+          "full": "assets/photo-06-b-full.webp"
+        }
+      ]
+    },
+    {
+      "id": "photo-07",
+      "groupId": "flowers",
+      "width": 960,
+      "height": 1280,
+      "original": {
+        "src": "assets/photo-07-original.webp",
+        "width": 900,
+        "height": 1200,
+        "full": "assets/photo-07-original-full.webp"
+      },
+      "variants": [
+        {
+          "id": "a",
+          "label": "Кино",
+          "src": "assets/photo-07-a.webp",
+          "width": 900,
+          "height": 1200,
+          "full": "assets/photo-07-a-full.webp"
+        },
+        {
+          "id": "b",
+          "label": "Фантазия",
+          "src": "assets/photo-07-b.webp",
+          "width": 900,
+          "height": 1200,
+          "full": "assets/photo-07-b-full.webp"
+        }
+      ]
+    },
+    {
+      "id": "photo-08",
+      "groupId": "flowers",
+      "width": 960,
+      "height": 1280,
+      "original": {
+        "src": "assets/photo-08-original.webp",
+        "width": 900,
+        "height": 1200,
+        "full": "assets/photo-08-original-full.webp"
+      },
+      "variants": [
+        {
+          "id": "a",
+          "label": "Кино",
+          "src": "assets/photo-08-a.webp",
+          "width": 900,
+          "height": 1200,
+          "full": "assets/photo-08-a-full.webp"
+        },
+        {
+          "id": "b",
+          "label": "Фантазия",
+          "src": "assets/photo-08-b.webp",
+          "width": 900,
+          "height": 1200,
+          "full": "assets/photo-08-b-full.webp"
+        }
+      ]
+    },
+    {
+      "id": "photo-09",
+      "groupId": "flowers",
+      "width": 960,
+      "height": 1280,
+      "original": {
+        "src": "assets/photo-09-original.webp",
+        "width": 900,
+        "height": 1200,
+        "full": "assets/photo-09-original-full.webp"
+      },
+      "variants": [
+        {
+          "id": "a",
+          "label": "Кино",
+          "src": "assets/photo-09-a.webp",
+          "width": 900,
+          "height": 1200,
+          "full": "assets/photo-09-a-full.webp"
+        },
+        {
+          "id": "b",
+          "label": "Фантазия",
+          "src": "assets/photo-09-b.webp",
+          "width": 900,
+          "height": 1200,
+          "full": "assets/photo-09-b-full.webp"
+        }
+      ]
+    },
+    {
+      "id": "photo-10",
+      "groupId": "on-the-way",
+      "width": 2560,
+      "height": 1920,
+      "original": {
+        "src": "assets/photo-10-original.webp",
+        "width": 1200,
+        "height": 900,
+        "full": "assets/photo-10-original-full.webp"
+      },
+      "variants": [
+        {
+          "id": "a",
+          "label": "Кино",
+          "src": "assets/photo-10-a.webp",
+          "width": 1200,
+          "height": 900,
+          "full": "assets/photo-10-a-full.webp"
+        },
+        {
+          "id": "b",
+          "label": "Фантазия",
+          "src": "assets/photo-10-b.webp",
+          "width": 1200,
+          "height": 900,
+          "full": "assets/photo-10-b-full.webp"
+        },
+        {
+          "id": "extra1",
+          "label": "Ещё версия",
+          "src": "assets/photo-10-extra1.webp",
+          "width": 1200,
+          "height": 900,
+          "full": "assets/photo-10-extra1-full.webp"
+        }
+      ]
+    },
+    {
+      "id": "photo-11",
+      "groupId": "on-the-way",
+      "width": 2560,
+      "height": 1920,
+      "original": {
+        "src": "assets/photo-11-original.webp",
+        "width": 1200,
+        "height": 900,
+        "full": "assets/photo-11-original-full.webp"
+      },
+      "variants": [
+        {
+          "id": "a",
+          "label": "Кино",
+          "src": "assets/photo-11-a.webp",
+          "width": 1200,
+          "height": 900,
+          "full": "assets/photo-11-a-full.webp"
+        },
+        {
+          "id": "b",
+          "label": "Фантазия",
+          "src": "assets/photo-11-b.webp",
+          "width": 1200,
+          "height": 900,
+          "full": "assets/photo-11-b-full.webp"
+        }
+      ]
+    },
+    {
+      "id": "photo-12",
+      "groupId": "autumn",
+      "width": 2560,
+      "height": 1920,
+      "original": {
+        "src": "assets/photo-12-original.webp",
+        "width": 1200,
+        "height": 900,
+        "full": "assets/photo-12-original-full.webp"
+      },
+      "variants": [
+        {
+          "id": "a",
+          "label": "Кино",
+          "src": "assets/photo-12-a.webp",
+          "width": 1200,
+          "height": 900,
+          "full": "assets/photo-12-a-full.webp"
+        },
+        {
+          "id": "b",
+          "label": "Фантазия",
+          "src": "assets/photo-12-b.webp",
+          "width": 1200,
+          "height": 900,
+          "full": "assets/photo-12-b-full.webp"
+        }
+      ]
+    },
+    {
+      "id": "photo-13",
+      "groupId": "pizza",
+      "width": 1920,
+      "height": 2560,
+      "original": {
+        "src": "assets/photo-13-original.webp",
+        "width": 900,
+        "height": 1200,
+        "full": "assets/photo-13-original-full.webp"
+      },
+      "variants": [
+        {
+          "id": "a",
+          "label": "Кино",
+          "src": "assets/photo-13-a.webp",
+          "width": 900,
+          "height": 1200,
+          "full": "assets/photo-13-a-full.webp"
+        },
+        {
+          "id": "b",
+          "label": "Фантазия",
+          "src": "assets/photo-13-b.webp",
+          "width": 900,
+          "height": 1200,
+          "full": "assets/photo-13-b-full.webp"
+        }
+      ]
+    },
+    {
+      "id": "photo-14",
+      "groupId": "autumn",
+      "width": 2560,
+      "height": 1920,
+      "original": {
+        "src": "assets/photo-14-original.webp",
+        "width": 1200,
+        "height": 900,
+        "full": "assets/photo-14-original-full.webp"
+      },
+      "variants": [
+        {
+          "id": "a",
+          "label": "Кино",
+          "src": "assets/photo-14-a.webp",
+          "width": 1200,
+          "height": 900,
+          "full": "assets/photo-14-a-full.webp"
+        },
+        {
+          "id": "b",
+          "label": "Фантазия",
+          "src": "assets/photo-14-b.webp",
+          "width": 1200,
+          "height": 900,
+          "full": "assets/photo-14-b-full.webp"
+        }
+      ]
+    },
+    {
+      "id": "photo-15",
+      "groupId": "autumn",
+      "width": 2560,
+      "height": 1920,
+      "original": {
+        "src": "assets/photo-15-original.webp",
+        "width": 1200,
+        "height": 900,
+        "full": "assets/photo-15-original-full.webp"
+      },
+      "variants": [
+        {
+          "id": "a",
+          "label": "Кино",
+          "src": "assets/photo-15-a.webp",
+          "width": 1200,
+          "height": 900,
+          "full": "assets/photo-15-a-full.webp"
+        },
+        {
+          "id": "b",
+          "label": "Фантазия",
+          "src": "assets/photo-15-b.webp",
+          "width": 1200,
+          "height": 900,
+          "full": "assets/photo-15-b-full.webp"
+        }
+      ]
+    },
+    {
+      "id": "photo-16",
+      "groupId": "autumn",
+      "width": 2560,
+      "height": 1920,
+      "original": {
+        "src": "assets/photo-16-original.webp",
+        "width": 1200,
+        "height": 900,
+        "full": "assets/photo-16-original-full.webp"
+      },
+      "variants": [
+        {
+          "id": "a",
+          "label": "Кино",
+          "src": "assets/photo-16-a.webp",
+          "width": 1200,
+          "height": 900,
+          "full": "assets/photo-16-a-full.webp"
+        },
+        {
+          "id": "b",
+          "label": "Фантазия",
+          "src": "assets/photo-16-b.webp",
+          "width": 1200,
+          "height": 900,
+          "full": "assets/photo-16-b-full.webp"
+        }
+      ]
+    },
+    {
+      "id": "photo-17",
+      "groupId": "autumn",
+      "width": 2560,
+      "height": 1920,
+      "original": {
+        "src": "assets/photo-17-original.webp",
+        "width": 1200,
+        "height": 900,
+        "full": "assets/photo-17-original-full.webp"
+      },
+      "variants": [
+        {
+          "id": "a",
+          "label": "Кино",
+          "src": "assets/photo-17-a.webp",
+          "width": 1200,
+          "height": 900,
+          "full": "assets/photo-17-a-full.webp"
+        },
+        {
+          "id": "b",
+          "label": "Фантазия",
+          "src": "assets/photo-17-b.webp",
+          "width": 1200,
+          "height": 900,
+          "full": "assets/photo-17-b-full.webp"
+        }
+      ]
+    },
+    {
+      "id": "photo-18",
+      "groupId": "autumn",
+      "width": 2560,
+      "height": 1920,
+      "original": {
+        "src": "assets/photo-18-original.webp",
+        "width": 1200,
+        "height": 900,
+        "full": "assets/photo-18-original-full.webp"
+      },
+      "variants": [
+        {
+          "id": "a",
+          "label": "Кино",
+          "src": "assets/photo-18-a.webp",
+          "width": 1200,
+          "height": 900,
+          "full": "assets/photo-18-a-full.webp"
+        },
+        {
+          "id": "b",
+          "label": "Фантазия",
+          "src": "assets/photo-18-b.webp",
+          "width": 1200,
+          "height": 900,
+          "full": "assets/photo-18-b-full.webp"
+        }
+      ]
+    },
+    {
+      "id": "photo-19",
+      "groupId": "city-lights",
+      "width": 1922,
+      "height": 2560,
+      "original": {
+        "src": "assets/photo-19-original.webp",
+        "width": 901,
+        "height": 1200,
+        "full": "assets/photo-19-original-full.webp"
+      },
+      "variants": [
+        {
+          "id": "a",
+          "label": "Кино",
+          "src": "assets/photo-19-a.webp",
+          "width": 900,
+          "height": 1200,
+          "full": "assets/photo-19-a-full.webp"
+        },
+        {
+          "id": "b",
+          "label": "Фантазия",
+          "src": "assets/photo-19-b.webp",
+          "width": 900,
+          "height": 1200,
+          "full": "assets/photo-19-b-full.webp"
+        }
+      ]
+    },
+    {
+      "id": "photo-20",
+      "groupId": "city-lights",
+      "width": 1837,
+      "height": 2449,
+      "original": {
+        "src": "assets/photo-20-original.webp",
+        "width": 900,
+        "height": 1200,
+        "full": "assets/photo-20-original-full.webp"
+      },
+      "variants": [
+        {
+          "id": "a",
+          "label": "Кино",
+          "src": "assets/photo-20-a.webp",
+          "width": 900,
+          "height": 1200,
+          "full": "assets/photo-20-a-full.webp"
+        },
+        {
+          "id": "b",
+          "label": "Фантазия",
+          "src": "assets/photo-20-b.webp",
+          "width": 900,
+          "height": 1200,
+          "full": "assets/photo-20-b-full.webp"
+        }
+      ]
+    },
+    {
+      "id": "photo-21",
+      "groupId": "city-lights",
+      "width": 1920,
+      "height": 2560,
+      "original": {
+        "src": "assets/photo-21-original.webp",
+        "width": 900,
+        "height": 1200,
+        "full": "assets/photo-21-original-full.webp"
+      },
+      "variants": [
+        {
+          "id": "a",
+          "label": "Кино",
+          "src": "assets/photo-21-a.webp",
+          "width": 900,
+          "height": 1200,
+          "full": "assets/photo-21-a-full.webp"
+        },
+        {
+          "id": "b",
+          "label": "Фантазия",
+          "src": "assets/photo-21-b.webp",
+          "width": 900,
+          "height": 1200,
+          "full": "assets/photo-21-b-full.webp"
+        }
+      ]
+    },
+    {
+      "id": "photo-22",
+      "groupId": "city-lights",
+      "width": 1920,
+      "height": 2560,
+      "original": {
+        "src": "assets/photo-22-original.webp",
+        "width": 900,
+        "height": 1200,
+        "full": "assets/photo-22-original-full.webp"
+      },
+      "variants": [
+        {
+          "id": "a",
+          "label": "Кино",
+          "src": "assets/photo-22-a.webp",
+          "width": 900,
+          "height": 1200,
+          "full": "assets/photo-22-a-full.webp"
+        },
+        {
+          "id": "b",
+          "label": "Фантазия",
+          "src": "assets/photo-22-b.webp",
+          "width": 900,
+          "height": 1200,
+          "full": "assets/photo-22-b-full.webp"
+        }
+      ]
+    },
+    {
+      "id": "photo-23",
+      "groupId": "city-lights",
+      "width": 1920,
+      "height": 2560,
+      "original": {
+        "src": "assets/photo-23-original.webp",
+        "width": 900,
+        "height": 1200,
+        "full": "assets/photo-23-original-full.webp"
+      },
+      "variants": [
+        {
+          "id": "a",
+          "label": "Кино",
+          "src": "assets/photo-23-a.webp",
+          "width": 900,
+          "height": 1200,
+          "full": "assets/photo-23-a-full.webp"
+        },
+        {
+          "id": "b",
+          "label": "Фантазия",
+          "src": "assets/photo-23-b.webp",
+          "width": 900,
+          "height": 1200,
+          "full": "assets/photo-23-b-full.webp"
+        }
+      ]
+    }
+  ],
+  "counts": {
+    "originals": 23,
+    "generated": 48,
+    "groups": 8,
+    "totalImages": 71
+  }
+}
